@@ -17,9 +17,15 @@
 4. Админка: http://ТВОЙ_IP:8081/administration (логин: user, пароль: bitnami).
 
 ## Инструкция по запуску тестов 
-1. Установите зависимости: pip install selenium pytest pytest-html webdriver-manager
-2. Запустите тесты: python -m pytest test_opencart.py -v
-3. Для генерации HTML-отчета: python -m pytest test_opencart.py -v --html=report.html --self-contained-html
+1. Установите зависимости:
+   ```bash
+   pip install selenium pytest pytest-html webdriver-manager
+2. Запустите тесты:
+   ```bash
+   python -m pytest test_opencart.py -v
+3. Для генерации HTML-отчета:
+    ```bash
+   python -m pytest test_opencart.py -v --html=report.html --self-contained-html
 
     ##Список реализованных тестов (10 шт.)
 1. Проверка заголовка главной страницы.
